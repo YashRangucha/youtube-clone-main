@@ -19,3 +19,41 @@ This project is a full-stack web application that emulates core functionalities 
   ```bash
   git clone https://github.com/YashRangucha/youtube-clone-main.git
   cd youtube-clone-main
+## Install Dependencies & API Configuration:
+- npm install
+
+- Get a YouTube Data API key from the Google Developers Console.
+Create a .env file in the project root: 
+REACT_APP_YOUTUBE_API_KEY=your_api_key_here
+
+## Start the Application:
+- npm start
+- Open http://localhost:3000 in your browser.
+  
+## Feature Implementation
+- Home Page: Displays trending videos fetched using YouTube Data API.
+- Search Bar: Dynamically queries videos based on user input.
+- Video Detail Page: Embedded video, metadata, and related suggestions.
+- Sidebar Navigation: Categorical quick links (music, gaming, news, etc.)
+- Responsive UI: Works across desktop, tablet, and mobile screens.
+
+## 📊 Key Insights
+- API-based frontend development allows real-time, dynamic rendering.
+- Modular React structure ensures scalability and reusability.
+- Tailwind CSS accelerates development while delivering responsive UIs.
+- Context API effectively replaces heavier global state managers for small/medium apps.
+
+## 💡 Future Enhancements
+- 🔐 Authentication: Add Firebase Auth or OAuth login
+- 🎥 Video Uploading Simulation
+- 💬 Comments Section under each video
+- ❤️ Like, Subscribe, Share options
+- 🧠 Watch History & Video Recommendations
+- 🌙 Dark Mode Toggle
+
+## 🧰 Technologies Used
+- Frontend: React.js, Tailwind CSS, React Router
+- API: YouTube Data API v3
+- State Management: Context API
+- Version Control: Git & GitHub
+
