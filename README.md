@@ -1,30 +1,21 @@
-# Getting Started with Create React App
+# YouTube Clone: Full-Stack Video Streaming Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+This project is a full-stack web application that emulates core functionalities of YouTube, allowing users to browse, search, and view videos. Built with modern web technologies, the application provides a seamless user experience with features such as video playback, search functionality, and responsive design.
 
-In the project directory, you can run:
+## Key Technical Highlights
 
-### `npm start`
+- **Frontend Development**: Utilized React.js for building dynamic user interfaces, with Tailwind CSS for styling and responsiveness.
+- **Routing**: Implemented client-side routing using React Router to manage navigation between different views.
+- **API Integration**: Integrated with the YouTube Data API to fetch real-time video data, including video details, search results, and trending videos.
+- **State Management**: Managed application state effectively using React's Context API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Detailed Steps
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Project Setup
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Cloning the Repository**:
+  ```bash
+  git clone https://github.com/YashRangucha/youtube-clone-main.git
+  cd youtube-clone-main
